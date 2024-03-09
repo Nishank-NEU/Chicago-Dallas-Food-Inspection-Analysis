@@ -1,0 +1,2033 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>True</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>10000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Score" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Number" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Name" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Direction" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Type" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Unit" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Address" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Zip Code" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 1" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 1" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 2" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 3" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 4" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 5" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 6" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 7" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 8" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 9" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 10" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 11" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 12" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 13" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 14" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 15" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 16" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 17" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 17" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 18" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 18" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 19" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 20" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 20" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 21" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 21" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 22" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 22" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 23" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 23" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 24" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 24" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 25" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 25" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Month" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Year" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Lat Long Location" size="10000" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="126" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_13268_7446b8236138bb4e8d6a3505bd37c750_\Engine_13268_1480a2676e7ce941bb3a44919e981a0a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Arrange.Arrange">
+        <Position x="198" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <KeyFields orderChanged="False">
+            <Field name="Restaurant Name" />
+            <Field name="Inspection Type" />
+            <Field name="Inspection Date" />
+            <Field name="Inspection Score" />
+            <Field name="Street Number" />
+            <Field name="Street Name" />
+            <Field name="Street Direction" />
+            <Field name="Street Type" />
+            <Field name="Street Unit" />
+            <Field name="Street Address" />
+            <Field name="Zip Code" />
+            <Field name="Inspection Month" />
+            <Field name="Inspection Year" />
+            <Field name="Lat Long Location" />
+          </KeyFields>
+          <OutputFields>
+            <Columns>
+              <Column name="Violation Description" type="combobox" />
+              <Column name="Violation Points" type="combobox" />
+              <Column name="Violation Detail" type="combobox" />
+              <Column name="Violation Memo" type="combobox" />
+            </Columns>
+            <Data>
+              <r>
+                <c>Violation Description - 1</c>
+                <c>Violation Points - 1</c>
+                <c>Violation Detail - 1</c>
+                <c>Violation Memo - 1</c>
+              </r>
+              <r>
+                <c>Violation Description - 2</c>
+                <c>Violation Points - 2</c>
+                <c>Violation Detail - 2</c>
+                <c>Violation Memo - 2</c>
+              </r>
+              <r>
+                <c>Violation Description - 3</c>
+                <c>Violation Points - 3</c>
+                <c>Violation Detail - 3</c>
+                <c>Violation Memo - 3</c>
+              </r>
+              <r>
+                <c>Violation Description - 4</c>
+                <c>Violation Points - 4</c>
+                <c>Violation Detail - 4</c>
+                <c>Violation Memo - 4</c>
+              </r>
+              <r>
+                <c>Violation Description - 5</c>
+                <c>Violation Points - 5</c>
+                <c>Violation Detail - 5</c>
+                <c>Violation Memo - 5</c>
+              </r>
+              <r>
+                <c>Violation Description - 6</c>
+                <c>Violation Points - 6</c>
+                <c>Violation Detail - 6</c>
+                <c>Violation Memo - 6</c>
+              </r>
+              <r>
+                <c>Violation Description - 7</c>
+                <c>Violation Points - 7</c>
+                <c>Violation Detail - 7</c>
+                <c>Violation Memo - 7</c>
+              </r>
+              <r>
+                <c>Violation Description - 8</c>
+                <c>Violation Points - 8</c>
+                <c>Violation Detail - 8</c>
+                <c>Violation Memo - 8</c>
+              </r>
+              <r>
+                <c>Violation Description - 9</c>
+                <c>Violation Points - 9</c>
+                <c>Violation Detail - 9</c>
+                <c>Violation Memo - 9</c>
+              </r>
+              <r>
+                <c>Violation Description - 10</c>
+                <c>Violation Points - 10</c>
+                <c>Violation Detail - 10</c>
+                <c>Violation Memo - 10</c>
+              </r>
+              <r>
+                <c>Violation Description - 11</c>
+                <c>Violation Points - 11</c>
+                <c>Violation Detail - 11</c>
+                <c>Violation Memo - 11</c>
+              </r>
+              <r>
+                <c>Violation Description - 12</c>
+                <c>Violation Points - 12</c>
+                <c>Violation Detail - 12</c>
+                <c>Violation Memo - 12</c>
+              </r>
+              <r>
+                <c>Violation Description - 13</c>
+                <c>Violation Points - 13</c>
+                <c>Violation Detail - 13</c>
+                <c>Violation Memo - 13</c>
+              </r>
+              <r>
+                <c>Violation Description - 14</c>
+                <c>Violation Points - 14</c>
+                <c>Violation Detail - 14</c>
+                <c>Violation Memo - 14</c>
+              </r>
+              <r>
+                <c>Violation Description - 15</c>
+                <c>Violation Points - 15</c>
+                <c>Violation Detail - 15</c>
+                <c>Violation Memo - 15</c>
+              </r>
+              <r>
+                <c>Violation Description - 16</c>
+                <c>Violation Points - 16</c>
+                <c>Violation Detail - 16</c>
+                <c>Violation Memo - 16</c>
+              </r>
+              <r>
+                <c>Violation Description - 17</c>
+                <c>Violation Points - 17</c>
+                <c>Violation Detail - 17</c>
+                <c>Violation Memo - 17</c>
+              </r>
+              <r>
+                <c>Violation Description - 18</c>
+                <c>Violation Points - 18</c>
+                <c>Violation Detail - 18</c>
+                <c>Violation Memo - 18</c>
+              </r>
+              <r>
+                <c>Violation Description - 19</c>
+                <c>Violation Points - 19</c>
+                <c>Violation Detail - 19</c>
+                <c>Violation Memo - 19</c>
+              </r>
+              <r>
+                <c>Violation Description - 20</c>
+                <c>Violation Points - 20</c>
+                <c>Violation Detail - 20</c>
+                <c>Violation  Memo - 20</c>
+              </r>
+              <r>
+                <c>Violation Description - 21</c>
+                <c>Violation Points - 21</c>
+                <c>Violation Detail - 21</c>
+                <c>Violation Memo - 21</c>
+              </r>
+              <r>
+                <c>Violation Description - 22</c>
+                <c>Violation Points - 22</c>
+                <c>Violation Detail - 22</c>
+                <c>Violation Memo - 22</c>
+              </r>
+              <r>
+                <c>Violation Description - 23</c>
+                <c>Violation Points - 23</c>
+                <c>Violation Detail - 23</c>
+                <c>Violation Memo - 23</c>
+              </r>
+              <r>
+                <c>Violation Description - 24</c>
+                <c>Violation Points - 24</c>
+                <c>Violation Detail - 24</c>
+                <c>Violation Memo - 24</c>
+              </r>
+              <r>
+                <c>Violation Description - 25</c>
+                <c>Violation Points - 25</c>
+                <c>Violation Detail - 25</c>
+                <c>Violation Memo - 25</c>
+              </r>
+            </Data>
+          </OutputFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxArrange" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="378" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Lat Long Location</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="(" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="534" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>2</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Latitude</RootName>
+          <Delimeters value="," />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Violation Description" selected="True" />
+            <SelectField field="Violation Points" selected="True" />
+            <SelectField field="Violation Detail" selected="True" />
+            <SelectField field="Violation Memo" selected="True" />
+            <SelectField field="Latitude1" selected="True" rename="Latitude" />
+            <SelectField field="Latitude2" selected="True" rename="Longitude" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="738" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Longitude</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Longitude</RootName>
+          <Delimeters value=")" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_13268_7446b8236138bb4e8d6a3505bd37c750_\Engine_13268_8fd05a562014e34e9d80b72c1b4d5a33~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="101" y="1121" width="777" height="309" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 65</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="209" y="1254" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="ID" selected="True" />
+                <Field field="LICENSE ID" selected="True" />
+                <Field field="ACCOUNT NUMBER" selected="True" />
+                <Field field="SITE NUMBER" selected="True" />
+                <Field field="LEGAL NAME" selected="True" />
+                <Field field="DOING BUSINESS AS NAME" selected="True" />
+                <Field field="ADDRESS" selected="True" />
+                <Field field="CITY" selected="True" />
+                <Field field="STATE" selected="True" />
+                <Field field="ZIP CODE" selected="True" />
+                <Field field="WARD" selected="True" />
+                <Field field="PRECINCT" selected="True" />
+                <Field field="WARD PRECINCT" selected="True" />
+                <Field field="POLICE DISTRICT" selected="True" />
+                <Field field="LICENSE CODE" selected="True" />
+                <Field field="LICENSE DESCRIPTION" selected="True" />
+                <Field field="BUSINESS ACTIVITY ID" selected="True" />
+                <Field field="BUSINESS ACTIVITY" selected="True" />
+                <Field field="LICENSE NUMBER" selected="True" />
+                <Field field="APPLICATION TYPE" selected="True" />
+                <Field field="APPLICATION CREATED DATE" selected="True" />
+                <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+                <Field field="PAYMENT DATE" selected="True" />
+                <Field field="CONDITIONAL APPROVAL" selected="True" />
+                <Field field="LICENSE TERM START DATE" selected="True" />
+                <Field field="LICENSE TERM EXPIRATION DATE" selected="True" />
+                <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+                <Field field="DATE ISSUED" selected="True" />
+                <Field field="LICENSE STATUS" selected="True" />
+                <Field field="LICENSE STATUS CHANGE DATE" selected="True" />
+                <Field field="SSA" selected="True" />
+                <Field field="LATITUDE" selected="True" />
+                <Field field="LONGITUDE" selected="True" />
+                <Field field="LOCATION" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID" size="16" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE ID" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Int32" />
+                <Field name="ACCOUNT NUMBER" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Int32" />
+                <Field name="SITE NUMBER" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Int16" />
+                <Field name="LEGAL NAME" size="117" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="DOING BUSINESS AS NAME" size="128" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="ADDRESS" size="80" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="CITY" size="30" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="STATE" size="2" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="ZIP CODE" size="5" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="WARD" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Byte" />
+                <Field name="PRECINCT" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Int16" />
+                <Field name="WARD PRECINCT" size="6" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="POLICE DISTRICT" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Byte" />
+                <Field name="LICENSE CODE" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Int16" />
+                <Field name="LICENSE DESCRIPTION" size="60" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="BUSINESS ACTIVITY ID" size="81" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="BUSINESS ACTIVITY" size="735" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="LICENSE NUMBER" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Int32" />
+                <Field name="APPLICATION TYPE" size="6" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="APPLICATION CREATED DATE" size="10" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="PAYMENT DATE" size="10" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="CONDITIONAL APPROVAL" size="1" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE TERM START DATE" size="10" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="DATE ISSUED" size="10" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE STATUS" size="3" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_String" />
+                <Field name="SSA" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Byte" />
+                <Field name="LATITUDE" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Double" />
+                <Field name="LONGITUDE" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="Double" />
+                <Field name="LOCATION" size="40" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="282" y="1254" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="354" y="1254" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="Di_createdate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Di_createdate = DateTimeNow()
+DI_WorkflowFileName = [Engine.WorkflowFileName]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="630" y="1254" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="714" y="1170" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_13268_7446b8236138bb4e8d6a3505bd37c750_\Engine_13268_a91a3b898f56534497c8e81d3f6ebb8e~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="1254" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>10000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Business_Licenses.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE ID" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="ACCOUNT NUMBER" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="SITE NUMBER" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LEGAL NAME" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="DOING BUSINESS AS NAME" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="ADDRESS" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="CITY" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="STATE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="ZIP CODE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="WARD" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="PRECINCT" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="WARD PRECINCT" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="POLICE DISTRICT" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE CODE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE DESCRIPTION" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="BUSINESS ACTIVITY ID" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="BUSINESS ACTIVITY" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE NUMBER" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="APPLICATION TYPE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="APPLICATION CREATED DATE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="PAYMENT DATE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="CONDITIONAL APPROVAL" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE TERM START DATE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE TERM EXPIRATION DATE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE APPROVED FOR ISSUANCE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="DATE ISSUED" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE STATUS" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LICENSE STATUS CHANGE DATE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="SSA" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LATITUDE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LONGITUDE" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+                <Field name="LOCATION" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Business_Licenses.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="486" y="1254" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>All</FieldType>
+              <Fields orderChanged="False">
+                <Field name="ID" />
+                <Field name="LICENSE ID" />
+                <Field name="ACCOUNT NUMBER" />
+                <Field name="SITE NUMBER" />
+                <Field name="LEGAL NAME" />
+                <Field name="DOING BUSINESS AS NAME" />
+                <Field name="ADDRESS" />
+                <Field name="CITY" />
+                <Field name="STATE" />
+                <Field name="ZIP CODE" />
+                <Field name="WARD" />
+                <Field name="PRECINCT" />
+                <Field name="WARD PRECINCT" />
+                <Field name="POLICE DISTRICT" />
+                <Field name="LICENSE CODE" />
+                <Field name="LICENSE DESCRIPTION" />
+                <Field name="BUSINESS ACTIVITY ID" />
+                <Field name="BUSINESS ACTIVITY" />
+                <Field name="LICENSE NUMBER" />
+                <Field name="APPLICATION TYPE" />
+                <Field name="APPLICATION CREATED DATE" />
+                <Field name="APPLICATION REQUIREMENTS COMPLETE" />
+                <Field name="PAYMENT DATE" />
+                <Field name="CONDITIONAL APPROVAL" />
+                <Field name="LICENSE TERM START DATE" />
+                <Field name="LICENSE TERM EXPIRATION DATE" />
+                <Field name="LICENSE APPROVED FOR ISSUANCE" />
+                <Field name="DATE ISSUED" />
+                <Field name="LICENSE STATUS" />
+                <Field name="LICENSE STATUS CHANGE DATE" />
+                <Field name="SSA" />
+                <Field name="LATITUDE" />
+                <Field name="LONGITUDE" />
+                <Field name="LOCATION" />
+                <Field name="Di_createdate" />
+                <Field name="DI_WorkflowFileName" />
+                <Field name="*Unknown" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression><![CDATA[IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ENDIF
+]]></Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_WString" size="1073741823" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="750" y="1254" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:New_Food_Inspection|||Business_FoodInspection</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:New_Food_Inspection
+Query=Business_FoodInspection</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="52" y="581" width="1630" height="447" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 44</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="149" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_13268_7446b8236138bb4e8d6a3505bd37c750_\Engine_13268_80f3e0f3308e9f4ba7df6399f2487639~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="185" y="689" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="294" y="690" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Violations</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Violation</RootName>
+              <Delimeters value="|" />
+              <NumFields value="23" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="558" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_13268_7446b8236138bb4e8d6a3505bd37c750_\Engine_13268_6b2d3773c8561040bd1c0796f3531916~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="390" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Arrange.Arrange">
+            <Position x="498" y="713" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <KeyFields orderChanged="False" />
+              <OutputFields>
+                <Columns>
+                  <Column name="CodeViolationComment" type="combobox" />
+                </Columns>
+                <Data>
+                  <r>
+                    <c>Violations</c>
+                  </r>
+                  <r>
+                    <c>Violation1</c>
+                  </r>
+                  <r>
+                    <c>Violation2</c>
+                  </r>
+                  <r>
+                    <c>Violation3</c>
+                  </r>
+                  <r>
+                    <c>Violation4</c>
+                  </r>
+                  <r>
+                    <c>Violation5</c>
+                  </r>
+                  <r>
+                    <c>Violation6</c>
+                  </r>
+                  <r>
+                    <c>Violation7</c>
+                  </r>
+                  <r>
+                    <c>Violation8</c>
+                  </r>
+                  <r>
+                    <c>Violation9</c>
+                  </r>
+                  <r>
+                    <c>Violation10</c>
+                  </r>
+                  <r>
+                    <c>Violation11</c>
+                  </r>
+                  <r>
+                    <c>Violation12</c>
+                  </r>
+                  <r>
+                    <c>Violation13</c>
+                  </r>
+                  <r>
+                    <c>Violation14</c>
+                  </r>
+                  <r>
+                    <c>Violation15</c>
+                  </r>
+                  <r>
+                    <c>Violation16</c>
+                  </r>
+                  <r>
+                    <c>Violation17</c>
+                  </r>
+                  <r>
+                    <c>Violation18</c>
+                  </r>
+                  <r>
+                    <c>Violation19</c>
+                  </r>
+                  <r>
+                    <c>Violation20</c>
+                  </r>
+                  <r>
+                    <c>Violation21</c>
+                  </r>
+                  <r>
+                    <c>Violation22</c>
+                  </r>
+                  <r>
+                    <c>Violation23</c>
+                  </r>
+                </Data>
+              </OutputFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxArrange" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="678" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_13268_7446b8236138bb4e8d6a3505bd37c750_\Engine_13268_de8a45a0e8b70245927fed10ad6b5419~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="630" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>CodeViolationComment</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Code</RootName>
+              <Delimeters value="." />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="702" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="ReplaceFirst([Code2], &quot;Comments:&quot;, &quot;|&quot;)" field="2" size="10000" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[2 = ReplaceFirst([Code2], "Comments:", "|")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="918" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>2</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Comment</RootName>
+              <Delimeters value="|" />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="77" y="702" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>10000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Food_Inspections.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Inspection ID" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="DBA Name" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="AKA Name" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="License #" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Facility Type" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Risk" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Address" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="City" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="State" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Zip" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Inspection Date" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Inspection Type" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Results" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Violations" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Latitude" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Longitude" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+                <Field name="Location" size="10000" source="File: C:\Users\nishank\Desktop\Chicago\Food_Inspections.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="1002" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CodeViolationComment" selected="True" />
+                <Field field="Code1" selected="True" />
+                <Field field="Code2" selected="True" />
+                <Field field="2" selected="True" />
+                <Field field="Comment1" selected="True" />
+                <Field field="Comment2" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CodeViolationComment" size="10000" source="(Multiple Sources)" type="V_String" />
+                <Field description="TextToColumns: Parsed from CodeViolationComment" name="Code1" source="TextToColumns: Parsed from CodeViolationComment" type="Byte" />
+                <Field description="TextToColumns: Parsed from CodeViolationComment" name="Code2" size="9998" source="TextToColumns: Parsed from CodeViolationComment" type="V_String" />
+                <Field name="2" size="9990" source="Formula: ReplaceFirst([Code2], &quot;Comments:&quot;, &quot;|&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from 2" name="Comment1" size="138" source="TextToColumns: Parsed from 2" type="V_String" />
+                <Field description="TextToColumns: Parsed from 2" name="Comment2" size="9944" source="TextToColumns: Parsed from 2" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1074" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1146" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="Di_createdate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="Di_WorkflowFileName" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Di_createdate = DateTimeNow()
+Di_WorkflowFileName = [Engine.WorkflowFileName]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1374" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1554" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:New_Food_Inspection|||Chicago_FoodInspection</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:New_Food_Inspection
+Query=Chicago_FoodInspection</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1230" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1434" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="True">
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1278" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>All</FieldType>
+              <Fields orderChanged="False">
+                <Field name="CodeViolationComment" />
+                <Field name="Code1" />
+                <Field name="Code2" />
+                <Field name="2" />
+                <Field name="Comment1" />
+                <Field name="Comment2" />
+                <Field name="Di_createdate" />
+                <Field name="Di_WorkflowFileName" />
+                <Field name="*Unknown" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression><![CDATA[IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ENDIF
+]]></Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_WString" size="1073741823" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1326" y="882" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>All</FieldType>
+              <Fields orderChanged="False">
+                <Field name="Inspection ID" />
+                <Field name="DBA Name" />
+                <Field name="AKA Name" />
+                <Field name="License #" />
+                <Field name="Facility Type" />
+                <Field name="Risk" />
+                <Field name="Address" />
+                <Field name="City" />
+                <Field name="State" />
+                <Field name="Zip" />
+                <Field name="Inspection Date" />
+                <Field name="Inspection Type" />
+                <Field name="Results" />
+                <Field name="Violations" />
+                <Field name="Latitude" />
+                <Field name="Longitude" />
+                <Field name="Location" />
+                <Field name="*Unknown" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression><![CDATA[IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ENDIF
+]]></Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_WString" size="1073741823" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1025" y="77" width="669" height="284" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 45</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="1050" y="233" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Restaurant Name" selected="True" />
+                <Field field="Inspection Type" selected="True" />
+                <Field field="Inspection Date" selected="True" />
+                <Field field="Inspection Score" selected="True" />
+                <Field field="Street Number" selected="True" />
+                <Field field="Street Name" selected="True" />
+                <Field field="Street Direction" selected="True" />
+                <Field field="Street Type" selected="True" />
+                <Field field="Street Unit" selected="True" />
+                <Field field="Street Address" selected="True" />
+                <Field field="Zip Code" selected="True" />
+                <Field field="Inspection Month" selected="True" />
+                <Field field="Inspection Year" selected="True" />
+                <Field field="Violation Description" selected="True" />
+                <Field field="Violation Points" selected="True" />
+                <Field field="Violation Detail" selected="True" />
+                <Field field="Violation Memo" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="False" />
+                <Field field="Longitude1" selected="True" />
+                <Field field="Longitude2" selected="False" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Restaurant Name" size="65" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Inspection Type" size="9" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Date" size="10" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Score" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Street Number" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int32" />
+                <Field name="Street Name" size="25" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Street Direction" size="1" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Type" size="4" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Unit" size="5" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Address" size="36" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Zip Code" size="10" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Month" size="8" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Year" size="6" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Violation Description" size="100" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail" size="1043" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo" size="3214" source="File: C:\Users\Nishank\Desktop\Dallas\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field description="TextToColumns: Parsed from 2" name="Latitude" size="29" source="TextToColumns: Parsed from 2" type="V_String" />
+                <Field description="TextToColumns: Parsed from 2" name="Longitude" size="10000" source="TextToColumns: Parsed from 2" type="V_WString" />
+                <Field description="TextToColumns: Parsed from Longitude" name="Longitude1" source="TextToColumns: Parsed from Longitude" type="Double" />
+                <Field description="TextToColumns: Parsed from Longitude" name="Longitude2" size="10000" source="TextToColumns: Parsed from Longitude" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1122" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Restaurant Name" selected="True" />
+                <SelectField field="Inspection Type" selected="True" />
+                <SelectField field="Inspection Date" selected="True" />
+                <SelectField field="Inspection Score" selected="True" />
+                <SelectField field="Street Number" selected="True" />
+                <SelectField field="Street Name" selected="True" />
+                <SelectField field="Street Direction" selected="True" />
+                <SelectField field="Street Type" selected="True" />
+                <SelectField field="Street Unit" selected="True" />
+                <SelectField field="Street Address" selected="True" />
+                <SelectField field="Zip Code" selected="True" />
+                <SelectField field="Inspection Month" selected="True" />
+                <SelectField field="Inspection Year" selected="True" />
+                <SelectField field="Violation Description" selected="True" />
+                <SelectField field="Violation Points" selected="True" />
+                <SelectField field="Violation Detail" selected="True" />
+                <SelectField field="Violation Memo" selected="True" />
+                <SelectField field="Latitude" selected="True" />
+                <SelectField field="Longitude1" selected="True" rename="Longitude" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1194" y="185" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="Di_createdate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Di_createdate = DateTimeNow()
+DI_WorkflowFileName = [Engine.WorkflowFileName]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1470" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1566" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:New_Food_Inspection|||Dallas_FoodInspection</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:New_Food_Inspection
+Query=Dallas_FoodInspection</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1530" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_13268_7446b8236138bb4e8d6a3505bd37c750_\Engine_13268_347ffe26906750408f71dc12994e895f~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1326" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>All</FieldType>
+              <Fields orderChanged="False">
+                <Field name="Restaurant Name" />
+                <Field name="Inspection Type" />
+                <Field name="Inspection Date" />
+                <Field name="Inspection Score" />
+                <Field name="Street Number" />
+                <Field name="Street Name" />
+                <Field name="Street Direction" />
+                <Field name="Street Type" />
+                <Field name="Street Unit" />
+                <Field name="Street Address" />
+                <Field name="Zip Code" />
+                <Field name="Inspection Month" />
+                <Field name="Inspection Year" />
+                <Field name="Violation Description" />
+                <Field name="Violation Points" />
+                <Field name="Violation Detail" />
+                <Field name="Violation Memo" />
+                <Field name="Latitude" />
+                <Field name="Longitude" />
+                <Field name="Di_createdate" />
+                <Field name="DI_WorkflowFileName" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression><![CDATA[IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ENDIF
+]]></Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_WString" size="1073741823" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="37" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="37" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Join" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>FOODINSPECTION</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c5d7c746-1704-4a86-a1bf-afe7fbe0f8f4" />
+      <Telemetry>
+        <PreviousWorkflowId value="c7ed053a-c9b9-48a2-9d1d-842cd95306fd" />
+        <OriginWorkflowId value="c7ed053a-c9b9-48a2-9d1d-842cd95306fd" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
