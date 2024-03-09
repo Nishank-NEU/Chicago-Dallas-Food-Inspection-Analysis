@@ -1,0 +1,1631 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="234" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>True</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Score" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Number" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Name" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Direction" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Type" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Unit" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Address" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Month" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Year" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Lat Long Location" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CREATEDATE" size="19" type="DateTime" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CREATEDATE = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="498" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Inspection Date</InputFieldName>
+          <Language>English</Language>
+          <Format>%m/%d/%Y</Format>
+          <OutputFieldName>insp_date_corrected</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection Date From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="630" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>dallas_stg</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="738" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=UpdatedCombinedModel|||dallas_food_inspection_stg</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>254</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=UpdatedCombinedModel
+Query=dallas_food_inspection_stg</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\DADABI\CombinedModel\Food_Inspections.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Food_Inspections.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="DBA Name" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="AKA Name" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="License #" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Facility Type" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Risk" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="State" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Zip" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Results" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Violations" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="-18" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\DADABI\CombinedModel\Business_Licenses.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Business_Licenses.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE ID" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ACCOUNT NUMBER" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="SITE NUMBER" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LEGAL NAME" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="DOING BUSINESS AS NAME" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ADDRESS" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="CITY" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="STATE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ZIP CODE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="WARD" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="PRECINCT" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="WARD PRECINCT" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="POLICE DISTRICT" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE CODE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE DESCRIPTION" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY ID" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE NUMBER" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION TYPE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION CREATED DATE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="PAYMENT DATE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="CONDITIONAL APPROVAL" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE TERM START DATE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="DATE ISSUED" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE STATUS" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="SSA" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LATITUDE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LONGITUDE" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LOCATION" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>True</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Score" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Number" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Name" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Direction" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Type" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Unit" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Address" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Month" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Year" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Lat Long Location" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\tanma\AppData\Local\Temp\Engine_6012_c1bcc67f0163e64c955ada3a0c60efa5_\Engine_6012_d0269dccf0d53e4183eecbb365356228~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="102" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\tanma\AppData\Local\Temp\Engine_6012_c1bcc67f0163e64c955ada3a0c60efa5_\Engine_6012_d9f920ad3ccc904c831a56ee736cd410~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\tanma\AppData\Local\Temp\Engine_6012_c1bcc67f0163e64c955ada3a0c60efa5_\Engine_6012_07abc60cb29569448d3e584779942159~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="377" y="65" width="648" height="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 17</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="402" y="113" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Inspection ID" selected="True" />
+                <Field field="DBA Name" selected="True" />
+                <Field field="AKA Name" selected="True" />
+                <Field field="License #" selected="True" />
+                <Field field="Facility Type" selected="True" />
+                <Field field="Risk" selected="True" />
+                <Field field="Address" selected="True" />
+                <Field field="City" selected="True" />
+                <Field field="State" selected="True" />
+                <Field field="Zip" selected="True" />
+                <Field field="Inspection Date" selected="True" />
+                <Field field="Inspection Type" selected="True" />
+                <Field field="Results" selected="True" />
+                <Field field="Violations" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="Location" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Inspection ID" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="Int32" />
+                <Field name="DBA Name" size="79" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_String" />
+                <Field name="AKA Name" size="79" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_String" />
+                <Field name="License #" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="Int32" />
+                <Field name="Facility Type" size="47" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_String" />
+                <Field name="Risk" size="15" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="String" />
+                <Field name="Address" size="51" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_String" />
+                <Field name="City" size="20" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_String" />
+                <Field name="State" size="2" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="String" />
+                <Field name="Zip" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="Int32" />
+                <Field name="Inspection Date" size="10" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="String" />
+                <Field name="Inspection Type" size="41" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_String" />
+                <Field name="Results" size="20" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_String" />
+                <Field name="Violations" size="254" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="V_String" />
+                <Field name="Latitude" size="18" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="String" />
+                <Field name="Longitude" size="18" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="String" />
+                <Field name="Location" size="40" source="File: D:\DADABI\CombinedModel\Food_Inspections.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="534" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CREATEDATE" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[DI_CREATEDATE = DateTimeNow()
+
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="630" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Inspection Date</InputFieldName>
+              <Language>English</Language>
+              <Format>%m/%d/%Y</Format>
+              <OutputFieldName>INSPECTION_DATE_CORRECTED</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Inspection Date From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="726" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>FOODINSPECTION_CHICAGO_ID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="894" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=UpdatedCombinedModel|||FOOD_INSPECTIONS_CHICAGO</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=UpdatedCombinedModel
+Query=FOOD_INSPECTIONS_CHICAGO</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="810" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="FOODINSPECTION_CHICAGO_ID" selected="True" />
+                <SelectField field="Inspection ID" selected="True" />
+                <SelectField field="DBA Name" selected="True" />
+                <SelectField field="AKA Name" selected="True" />
+                <SelectField field="License #" selected="True" />
+                <SelectField field="Facility Type" selected="True" />
+                <SelectField field="Risk" selected="True" />
+                <SelectField field="Address" selected="True" />
+                <SelectField field="City" selected="True" />
+                <SelectField field="State" selected="True" />
+                <SelectField field="Zip" selected="True" />
+                <SelectField field="Inspection Date" selected="True" />
+                <SelectField field="Inspection Type" selected="True" />
+                <SelectField field="Results" selected="True" />
+                <SelectField field="Violations" selected="True" />
+                <SelectField field="Latitude" selected="True" />
+                <SelectField field="Longitude" selected="True" />
+                <SelectField field="Location" selected="True" />
+                <SelectField field="DI_CREATEDATE" selected="True" />
+                <SelectField field="INSPECTION_DATE_CORRECTED" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="185" y="306" width="947" height="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 27</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="823" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>Business_Licenses_ID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="210" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="ID" selected="True" />
+                <Field field="LICENSE ID" selected="True" />
+                <Field field="ACCOUNT NUMBER" selected="True" />
+                <Field field="SITE NUMBER" selected="True" />
+                <Field field="LEGAL NAME" selected="True" />
+                <Field field="DOING BUSINESS AS NAME" selected="True" />
+                <Field field="ADDRESS" selected="True" />
+                <Field field="CITY" selected="True" />
+                <Field field="STATE" selected="True" />
+                <Field field="ZIP CODE" selected="True" />
+                <Field field="WARD" selected="True" />
+                <Field field="PRECINCT" selected="True" />
+                <Field field="WARD PRECINCT" selected="True" />
+                <Field field="POLICE DISTRICT" selected="True" />
+                <Field field="LICENSE CODE" selected="True" />
+                <Field field="LICENSE DESCRIPTION" selected="True" />
+                <Field field="BUSINESS ACTIVITY ID" selected="True" />
+                <Field field="BUSINESS ACTIVITY" selected="True" />
+                <Field field="LICENSE NUMBER" selected="True" />
+                <Field field="APPLICATION TYPE" selected="True" />
+                <Field field="APPLICATION CREATED DATE" selected="True" />
+                <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+                <Field field="PAYMENT DATE" selected="True" />
+                <Field field="CONDITIONAL APPROVAL" selected="True" />
+                <Field field="LICENSE TERM START DATE" selected="True" />
+                <Field field="LICENSE TERM EXPIRATION DATE" selected="True" />
+                <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+                <Field field="DATE ISSUED" selected="True" />
+                <Field field="LICENSE STATUS" selected="True" />
+                <Field field="LICENSE STATUS CHANGE DATE" selected="True" />
+                <Field field="SSA" selected="True" />
+                <Field field="LATITUDE" selected="True" />
+                <Field field="LONGITUDE" selected="True" />
+                <Field field="LOCATION" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID" size="16" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE ID" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Int32" />
+                <Field name="ACCOUNT NUMBER" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Int32" />
+                <Field name="SITE NUMBER" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Int16" />
+                <Field name="LEGAL NAME" size="117" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="DOING BUSINESS AS NAME" size="128" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="ADDRESS" size="80" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="CITY" size="30" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="STATE" size="2" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="ZIP CODE" size="5" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="WARD" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Byte" />
+                <Field name="PRECINCT" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Int16" />
+                <Field name="WARD PRECINCT" size="6" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="POLICE DISTRICT" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Byte" />
+                <Field name="LICENSE CODE" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Int16" />
+                <Field name="LICENSE DESCRIPTION" size="60" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="BUSINESS ACTIVITY ID" size="81" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="BUSINESS ACTIVITY" size="254" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="LICENSE NUMBER" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Int32" />
+                <Field name="APPLICATION TYPE" size="6" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="APPLICATION CREATED DATE" size="10" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="PAYMENT DATE" size="10" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="CONDITIONAL APPROVAL" size="1" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE TERM START DATE" size="10" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="DATE ISSUED" size="10" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE STATUS" size="3" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+                <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="V_String" />
+                <Field name="SSA" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Byte" />
+                <Field name="LATITUDE" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Double" />
+                <Field name="LONGITUDE" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="Double" />
+                <Field name="LOCATION" size="40" source="File: D:\DADABI\CombinedModel\Business_Licenses.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="343" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="439" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>DATE ISSUED</InputFieldName>
+              <Language>English</Language>
+              <Format>%m/%d/%Y</Format>
+              <OutputFieldName>DATE_ISSUED_CORRECTED</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert DATE ISSUED From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="535" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>LICENSE TERM START DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>%m/%d/%Y</Format>
+              <OutputFieldName>LICENSE_TERM_STARTDATE_CORRECTED</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert LICENSE TERM START DATE From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="631" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>LICENSE STATUS CHANGE DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>%m/%d/%Y</Format>
+              <OutputFieldName>LICENSE STATUS CHANGE DATE_CORRECTED</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert LICENSE STATUS CHANGE DATE From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="727" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>LICENSE TERM EXPIRATION DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>%m/%d/%Y</Format>
+              <OutputFieldName>LICENSE TERM EXPIRATION DATE_CORECTED</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert LICENSE TERM EXPIRATION DATE From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="919" y="355" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Business_Licenses_ID" selected="True" />
+                <SelectField field="ID" selected="True" />
+                <SelectField field="LICENSE ID" selected="True" />
+                <SelectField field="ACCOUNT NUMBER" selected="True" />
+                <SelectField field="SITE NUMBER" selected="True" />
+                <SelectField field="LEGAL NAME" selected="True" />
+                <SelectField field="DOING BUSINESS AS NAME" selected="True" />
+                <SelectField field="ADDRESS" selected="True" />
+                <SelectField field="CITY" selected="True" />
+                <SelectField field="STATE" selected="True" />
+                <SelectField field="ZIP CODE" selected="True" />
+                <SelectField field="WARD" selected="True" />
+                <SelectField field="PRECINCT" selected="True" />
+                <SelectField field="WARD PRECINCT" selected="True" />
+                <SelectField field="POLICE DISTRICT" selected="True" />
+                <SelectField field="LICENSE CODE" selected="True" />
+                <SelectField field="LICENSE DESCRIPTION" selected="True" />
+                <SelectField field="BUSINESS ACTIVITY ID" selected="True" />
+                <SelectField field="BUSINESS ACTIVITY" selected="True" />
+                <SelectField field="LICENSE NUMBER" selected="True" />
+                <SelectField field="APPLICATION TYPE" selected="True" />
+                <SelectField field="APPLICATION CREATED DATE" selected="True" />
+                <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+                <SelectField field="PAYMENT DATE" selected="True" />
+                <SelectField field="CONDITIONAL APPROVAL" selected="True" />
+                <SelectField field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+                <SelectField field="LICENSE STATUS" selected="True" />
+                <SelectField field="SSA" selected="True" />
+                <SelectField field="LATITUDE" selected="True" />
+                <SelectField field="LONGITUDE" selected="True" />
+                <SelectField field="LOCATION" selected="True" />
+                <SelectField field="DATE_ISSUED_CORRECTED" selected="True" />
+                <SelectField field="LICENSE_TERM_STARTDATE_CORRECTED" selected="True" />
+                <SelectField field="LICENSE STATUS CHANGE DATE_CORRECTED" selected="True" />
+                <SelectField field="LICENSE TERM EXPIRATION DATE_CORECTED" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1003" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=UpdatedCombinedModel|||chicago_business_license_stg</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=UpdatedCombinedModel
+Query=chicago_business_license_stg</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="281" y="580" width="789" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 38</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="306" y="629" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Restaurant Name" selected="True" />
+                <Field field="Inspection Type" selected="True" />
+                <Field field="Inspection Date" selected="True" />
+                <Field field="Inspection Score" selected="True" />
+                <Field field="Street Number" selected="True" />
+                <Field field="Street Name" selected="True" />
+                <Field field="Street Direction" selected="True" />
+                <Field field="Street Type" selected="True" />
+                <Field field="Street Unit" selected="True" />
+                <Field field="Street Address" selected="True" />
+                <Field field="Zip Code" selected="True" />
+                <Field field="Violation Description - 1" selected="True" />
+                <Field field="Violation Points - 1" selected="True" />
+                <Field field="Violation Detail - 1" selected="True" />
+                <Field field="Violation Memo - 1" selected="True" />
+                <Field field="Violation Description - 2" selected="True" />
+                <Field field="Violation Points - 2" selected="True" />
+                <Field field="Violation Detail - 2" selected="True" />
+                <Field field="Violation Memo - 2" selected="True" />
+                <Field field="Violation Description - 3" selected="True" />
+                <Field field="Violation Points - 3" selected="True" />
+                <Field field="Violation Detail - 3" selected="True" />
+                <Field field="Violation Memo - 3" selected="True" />
+                <Field field="Violation Description - 4" selected="True" />
+                <Field field="Violation Points - 4" selected="True" />
+                <Field field="Violation Detail - 4" selected="True" />
+                <Field field="Violation Memo - 4" selected="True" />
+                <Field field="Violation Description - 5" selected="True" />
+                <Field field="Violation Points - 5" selected="True" />
+                <Field field="Violation Detail - 5" selected="True" />
+                <Field field="Violation Memo - 5" selected="True" />
+                <Field field="Violation Description - 6" selected="True" />
+                <Field field="Violation Points - 6" selected="True" />
+                <Field field="Violation Detail - 6" selected="True" />
+                <Field field="Violation Memo - 6" selected="True" />
+                <Field field="Violation Description - 7" selected="True" />
+                <Field field="Violation Points - 7" selected="True" />
+                <Field field="Violation Detail - 7" selected="True" />
+                <Field field="Violation Memo - 7" selected="True" />
+                <Field field="Violation Description - 8" selected="True" />
+                <Field field="Violation Points - 8" selected="True" />
+                <Field field="Violation Detail - 8" selected="True" />
+                <Field field="Violation Memo - 8" selected="True" />
+                <Field field="Violation Description - 9" selected="True" />
+                <Field field="Violation Points - 9" selected="True" />
+                <Field field="Violation Detail - 9" selected="True" />
+                <Field field="Violation Memo - 9" selected="True" />
+                <Field field="Violation Description - 10" selected="True" />
+                <Field field="Violation Points - 10" selected="True" />
+                <Field field="Violation Detail - 10" selected="True" />
+                <Field field="Violation Memo - 10" selected="True" />
+                <Field field="Violation Description - 11" selected="True" />
+                <Field field="Violation Points - 11" selected="True" />
+                <Field field="Violation Detail - 11" selected="True" />
+                <Field field="Violation Memo - 11" selected="True" />
+                <Field field="Violation Description - 12" selected="True" />
+                <Field field="Violation Points - 12" selected="True" />
+                <Field field="Violation Detail - 12" selected="True" />
+                <Field field="Violation Memo - 12" selected="True" />
+                <Field field="Violation Description - 13" selected="True" />
+                <Field field="Violation Points - 13" selected="True" />
+                <Field field="Violation Detail - 13" selected="True" />
+                <Field field="Violation Memo - 13" selected="True" />
+                <Field field="Violation Description - 14" selected="True" />
+                <Field field="Violation Points - 14" selected="True" />
+                <Field field="Violation Detail - 14" selected="True" />
+                <Field field="Violation Memo - 14" selected="True" />
+                <Field field="Violation Description - 15" selected="True" />
+                <Field field="Violation Points - 15" selected="True" />
+                <Field field="Violation Detail - 15" selected="True" />
+                <Field field="Violation Memo - 15" selected="True" />
+                <Field field="Violation Description - 16" selected="True" />
+                <Field field="Violation Points - 16" selected="True" />
+                <Field field="Violation Detail - 16" selected="True" />
+                <Field field="Violation Memo - 16" selected="True" />
+                <Field field="Violation Description - 17" selected="True" />
+                <Field field="Violation Points - 17" selected="True" />
+                <Field field="Violation Detail - 17" selected="True" />
+                <Field field="Violation Memo - 17" selected="True" />
+                <Field field="Violation Description - 18" selected="True" />
+                <Field field="Violation Points - 18" selected="True" />
+                <Field field="Violation Detail - 18" selected="True" />
+                <Field field="Violation Memo - 18" selected="True" />
+                <Field field="Violation Description - 19" selected="True" />
+                <Field field="Violation Points - 19" selected="True" />
+                <Field field="Violation Detail - 19" selected="True" />
+                <Field field="Violation Memo - 19" selected="True" />
+                <Field field="Violation Description - 20" selected="True" />
+                <Field field="Violation Points - 20" selected="True" />
+                <Field field="Violation Detail - 20" selected="True" />
+                <Field field="Violation  Memo - 20" selected="True" />
+                <Field field="Violation Description - 21" selected="True" />
+                <Field field="Violation Points - 21" selected="True" />
+                <Field field="Violation Detail - 21" selected="True" />
+                <Field field="Violation Memo - 21" selected="True" />
+                <Field field="Violation Description - 22" selected="True" />
+                <Field field="Violation Points - 22" selected="True" />
+                <Field field="Violation Detail - 22" selected="True" />
+                <Field field="Violation Memo - 22" selected="True" />
+                <Field field="Violation Description - 23" selected="True" />
+                <Field field="Violation Points - 23" selected="True" />
+                <Field field="Violation Detail - 23" selected="True" />
+                <Field field="Violation Memo - 23" selected="True" />
+                <Field field="Violation Description - 24" selected="True" />
+                <Field field="Violation Points - 24" selected="True" />
+                <Field field="Violation Detail - 24" selected="True" />
+                <Field field="Violation Memo - 24" selected="True" />
+                <Field field="Violation Description - 25" selected="True" />
+                <Field field="Violation Points - 25" selected="True" />
+                <Field field="Violation Detail - 25" selected="True" />
+                <Field field="Violation Memo - 25" selected="True" />
+                <Field field="Inspection Month" selected="True" />
+                <Field field="Inspection Year" selected="True" />
+                <Field field="Lat Long Location" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Restaurant Name" size="65" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Inspection Type" size="9" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Date" size="10" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Score" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Street Number" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int32" />
+                <Field name="Street Name" size="25" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Street Direction" size="1" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Type" size="4" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Unit" size="5" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Address" size="36" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Zip Code" size="10" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Violation Description - 1" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 1" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 1" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 2" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 2" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 2" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 3" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 3" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 3" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 4" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 4" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 4" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 5" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 5" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 5" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 6" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 6" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 6" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 7" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 7" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 7" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 8" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 8" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 8" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 9" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 9" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 9" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 10" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 10" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 10" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 11" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 11" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 11" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 12" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 12" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 12" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 13" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 13" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 13" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 14" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 14" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 14" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 15" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 15" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 15" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 16" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 16" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 16" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 17" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 17" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 17" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 17" size="212" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 18" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 18" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 18" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 18" size="230" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 19" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 19" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 19" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 19" size="245" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 20" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 20" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 20" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation  Memo - 20" size="247" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 21" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 21" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 21" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 21" size="211" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 22" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 22" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 22" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 23" size="100" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 23" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 23" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 23" size="103" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 24" size="59" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 24" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 24" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 24" size="186" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 25" size="50" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 25" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 25" size="254" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 25" size="171" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Inspection Month" size="8" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Year" size="6" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Lat Long Location" size="59" source="File: D:\DADABI\CombinedModel\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="438" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CREATEDATE" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[DI_CREATEDATE = DateTimeNow()
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="570" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Inspection Date</InputFieldName>
+              <Language>English</Language>
+              <Format>%m/%d/%Y</Format>
+              <OutputFieldName>Inspection_DATE_CORRECTED</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Inspection Date From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="690" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>FOOD_INSPECTION_DALLAS_ID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="942" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=UpdatedCombinedModel|||food_inspection_dallas_stg</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=UpdatedCombinedModel
+Query=food_inspection_dallas_stg</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="False" max="12288" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>staging_combinedmodel</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b38aff52-0bcc-47ec-b691-7db51a459fdd" />
+      <Telemetry>
+        <PreviousWorkflowId value="fd3cbb59-47ea-4e43-abef-8c5de0ea8202" />
+        <OriginWorkflowId value="fd3cbb59-47ea-4e43-abef-8c5de0ea8202" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
