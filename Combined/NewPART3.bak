@@ -1,0 +1,946 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="DI_WorkflowFileName" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Int32" />
+            <Field name="Inspection ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="License #" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="Risk" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Address" size="51" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="City" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Zip" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="Violations" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="Latitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Longitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Location" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Di_createdate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_WString" />
+            <Field name="DateTime_Out" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFilename" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+DI_WorkflowFilename = [Engine....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="390" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ID" selected="True" />
+            <Field field="LICENSE ID" selected="True" />
+            <Field field="ACCOUNT NUMBER" selected="True" />
+            <Field field="SITE NUMBER" selected="True" />
+            <Field field="LEGAL NAME" selected="True" />
+            <Field field="DOING BUSINESS AS NAME" selected="True" />
+            <Field field="ADDRESS" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STATE" selected="True" />
+            <Field field="ZIP CODE" selected="True" />
+            <Field field="WARD" selected="True" />
+            <Field field="PRECINCT" selected="True" />
+            <Field field="WARD PRECINCT" selected="True" />
+            <Field field="POLICE DISTRICT" selected="True" />
+            <Field field="LICENSE CODE" selected="True" />
+            <Field field="LICENSE DESCRIPTION" selected="True" />
+            <Field field="BUSINESS ACTIVITY ID" selected="True" />
+            <Field field="BUSINESS ACTIVITY" selected="True" />
+            <Field field="LICENSE NUMBER" selected="True" />
+            <Field field="APPLICATION TYPE" selected="True" />
+            <Field field="APPLICATION CREATED DATE" selected="True" />
+            <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <Field field="PAYMENT DATE" selected="True" />
+            <Field field="CONDITIONAL APPROVAL" selected="True" />
+            <Field field="LICENSE TERM START DATE" selected="True" />
+            <Field field="LICENSE TERM EXPIRATION DATE" selected="True" />
+            <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <Field field="DATE ISSUED" selected="True" />
+            <Field field="LICENSE STATUS" selected="True" />
+            <Field field="LICENSE STATUS CHANGE DATE" selected="True" />
+            <Field field="SSA" selected="True" />
+            <Field field="LATITUDE" selected="True" />
+            <Field field="LONGITUDE" selected="True" />
+            <Field field="LOCATION" selected="True" />
+            <Field field="Di_createdate" selected="True" />
+            <Field field="DI_WorkflowFileName" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Int32" />
+            <Field name="ID" size="16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="LICENSE ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Int32" />
+            <Field name="SITE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Int16" />
+            <Field name="LEGAL NAME" size="117" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="128" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="ADDRESS" size="80" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="CITY" size="30" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="STATE" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="ZIP CODE" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="WARD" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Byte" />
+            <Field name="PRECINCT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="POLICE DISTRICT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Byte" />
+            <Field name="LICENSE CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="735" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="APPLICATION CREATED DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="PAYMENT DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="LICENSE TERM START DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="DATE ISSUED" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_String" />
+            <Field name="SSA" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Byte" />
+            <Field name="LATITUDE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Double" />
+            <Field name="LONGITUDE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Double" />
+            <Field name="LOCATION" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+            <Field name="Di_createdate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="19" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="390" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Restaurant Name" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Score" selected="True" />
+            <Field field="Street Number" selected="True" />
+            <Field field="Street Name" selected="True" />
+            <Field field="Street Direction" selected="True" />
+            <Field field="Street Type" selected="True" />
+            <Field field="Street Unit" selected="True" />
+            <Field field="Street Address" selected="True" />
+            <Field field="Zip Code" selected="True" />
+            <Field field="Inspection Month" selected="True" />
+            <Field field="Inspection Year" selected="True" />
+            <Field field="Violation Description" selected="True" />
+            <Field field="Violation Points" selected="True" />
+            <Field field="Violation Detail" selected="True" />
+            <Field field="Violation Memo" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Di_createdate" selected="True" />
+            <Field field="DI_WorkflowFileName" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int32" />
+            <Field name="Restaurant Name" size="65" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Inspection Type" size="9" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Inspection Date" size="10" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Inspection Score" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Street Number" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int32" />
+            <Field name="Street Name" size="25" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Street Type" size="4" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Street Unit" size="5" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Street Address" size="36" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Zip Code" size="10" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Violation Description - 1" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 1" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 1" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Memo - 1" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 2" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 2" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 2" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 3" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 3" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 3" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 4" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 4" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 4" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 5" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 5" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 5" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 6" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 6" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 6" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 7" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 7" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 7" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 8" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 8" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 8" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 9" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 9" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 9" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 10" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 10" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 10" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 11" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 11" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 11" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 12" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 12" size="994" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 12" size="407" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 13" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 13" size="888" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 13" size="881" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 14" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 14" size="888" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 14" size="818" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 15" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 15" size="888" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 15" size="818" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 16" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 16" size="888" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 16" size="397" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 17" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 17" size="829" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 17" size="212" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 18" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 18" size="829" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 18" size="230" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 19" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 19" size="815" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 19" size="245" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 20" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 20" size="815" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation  Memo - 20" size="247" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 21" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 21" size="815" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 21" size="211" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 22" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 22" size="815" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 22" size="374" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 23" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 23" size="492" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 23" size="103" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 24" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 24" size="434" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 24" size="186" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 25" size="50" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 25" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 25" size="482" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Inspection Year" size="6" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Lat Long Location" size="59" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Di_createdate" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="DateTime_Out" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="False" type="Int16" size="2" />
+            <SelectField field="License #" selected="False" type="Int64" size="8" />
+            <SelectField field="Risk" selected="True" />
+            <SelectField field="Inspection Date" selected="False" type="Date" size="10" />
+            <SelectField field="Latitude" selected="False" type="Float" size="4" />
+            <SelectField field="Longitude" selected="False" type="Float" size="4" />
+            <SelectField field="Di_createdate" selected="False" type="Date" size="10" />
+            <SelectField field="Code1" selected="False" rename="ViolationCode" type="Int16" size="2" />
+            <SelectField field="Code2" selected="False" rename="ViolationDescription" />
+            <SelectField field="Comment2" selected="False" rename="ViolationMemo" />
+            <SelectField field="LATITUDE" selected="False" type="Float" size="4" />
+            <SelectField field="LONGITUDE" selected="False" type="Float" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="LICENSE ID" selected="True" type="Int64" size="8" />
+            <SelectField field="SITE NUMBER" selected="True" />
+            <SelectField field="LEGAL NAME" selected="False" rename="AKA" />
+            <SelectField field="DOING BUSINESS AS NAME" selected="True" />
+            <SelectField field="ADDRESS" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="STATE" selected="True" />
+            <SelectField field="ZIP CODE" selected="True" />
+            <SelectField field="WARD" selected="True" />
+            <SelectField field="PRECINCT" selected="True" />
+            <SelectField field="POLICE DISTRICT" selected="True" />
+            <SelectField field="LICENSE CODE" selected="True" type="Int64" size="8" />
+            <SelectField field="LICENSE DESCRIPTION" selected="True" />
+            <SelectField field="LICENSE NUMBER" selected="True" type="Int64" size="8" />
+            <SelectField field="APPLICATION TYPE" selected="True" />
+            <SelectField field="APPLICATION CREATED DATE" selected="True" />
+            <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <SelectField field="LICENSE TERM START DATE" selected="True" type="Date" size="10" />
+            <SelectField field="LICENSE TERM EXPIRATION DATE" selected="True" type="Date" size="10" />
+            <SelectField field="DATE ISSUED" selected="True" type="Date" size="10" />
+            <SelectField field="LICENSE STATUS" selected="True" />
+            <SelectField field="LICENSE STATUS CHANGE DATE" selected="True" type="Date" size="10" />
+            <SelectField field="LATITUDE" selected="True" type="Float" size="4" />
+            <SelectField field="LONGITUDE" selected="True" type="Float" size="4" />
+            <SelectField field="Di_createdate" selected="True" type="Date" size="10" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="Restaurant Name" selected="True" rename="DBA" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" type="Date" size="10" />
+            <SelectField field="Inspection Score" selected="True" type="Int64" size="8" />
+            <SelectField field="Street Number" selected="False" type="Int64" size="8" />
+            <SelectField field="Street Address" selected="True" rename="Address" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Violation Description" selected="True" />
+            <SelectField field="Violation Points" selected="True" type="Int64" size="8" />
+            <SelectField field="Violation Detail" selected="True" />
+            <SelectField field="Violation Memo" selected="True" />
+            <SelectField field="Latitude" selected="True" type="Float" size="4" />
+            <SelectField field="Longitude" selected="True" type="Float" size="4" />
+            <SelectField field="Di_createdate" selected="True" type="Date" size="10" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="Lat Long Location" selected="False" rename="Location" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="234" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:New_Food_Inspection|||select Business_FoodInspection.* 
+from Business_FoodInspection</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:New_Food_Inspection
+Query=select Business_FoodInspecti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="Int32" />
+            <Field name="ID" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE ID" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="ACCOUNT NUMBER" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="SITE NUMBER" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LEGAL NAME" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="DOING BUSINESS AS NAME" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="ADDRESS" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="CITY" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="STATE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="ZIP CODE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="WARD" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="PRECINCT" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="WARD PRECINCT" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="POLICE DISTRICT" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE CODE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE DESCRIPTION" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY ID" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE NUMBER" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="APPLICATION TYPE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="APPLICATION CREATED DATE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="PAYMENT DATE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="CONDITIONAL APPROVAL" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE TERM START DATE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="DATE ISSUED" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE STATUS" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="SSA" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LATITUDE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LONGITUDE" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="LOCATION" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="Di_createdate" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Business_FoodInspection.* &#xA;from Business_FoodInspection" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:New_Food_Inspection|||select Chicago_FoodInspection.* 
+from Chicago_FoodInspection</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:New_Food_Inspection
+Query=select Chicago_FoodInspectio...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Int32" />
+            <Field name="Inspection ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="License #" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="Risk" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Address" size="51" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="City" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Zip" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="Violations" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_String" />
+            <Field name="Latitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Longitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Location" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="String" />
+            <Field name="Di_createdate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="V_WString" />
+            <Field name="DateTime_Out" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=FoodInspection;SERVER=NISHANK_DAVE27;Trusted_Connection=yes|||select Chicago_FoodInspection.* &#xA;from Chicago_FoodInspection" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="294" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:New_Food_Inspection|||select Dallas_FoodInspection.* 
+from Dallas_FoodInspection</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:New_Food_Inspection
+Query=select Dallas_FoodInspection...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int32" />
+            <Field name="Restaurant Name" size="65" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Inspection Type" size="9" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Inspection Date" size="10" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Inspection Score" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Street Number" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int32" />
+            <Field name="Street Name" size="25" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Street Type" size="4" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Street Unit" size="5" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Street Address" size="36" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Zip Code" size="10" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Violation Description - 1" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 1" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 1" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Memo - 1" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 2" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 2" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 2" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 3" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 3" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 3" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 4" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 4" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 4" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 5" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 5" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 5" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 6" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 6" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 6" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 7" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 7" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 7" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 8" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 8" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 8" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 9" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 9" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 9" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 10" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 10" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 10" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 11" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 11" size="910" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 11" size="1000" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 12" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 12" size="994" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 12" size="407" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 13" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 13" size="888" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 13" size="881" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 14" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 14" size="888" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 14" size="818" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 15" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 15" size="888" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 15" size="818" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 16" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 16" size="888" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 16" size="397" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 17" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 17" size="829" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 17" size="212" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 18" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 18" size="829" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 18" size="230" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 19" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 19" size="815" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 19" size="245" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 20" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 20" size="815" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation  Memo - 20" size="247" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 21" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 21" size="815" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 21" size="211" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 22" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 22" size="815" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 22" size="374" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 23" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 23" size="492" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 23" size="103" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 24" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 24" size="434" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 24" size="186" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Description - 25" size="50" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Points - 25" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Int16" />
+            <Field name="Violation Detail - 25" size="482" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Inspection Year" size="6" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="String" />
+            <Field name="Lat Long Location" size="59" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_String" />
+            <Field name="Di_createdate" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="V_WString" />
+            <Field name="DateTime_Out" source="File: aka:New_Food_Inspection|||select Dallas_FoodInspection.* &#xA;from Dallas_FoodInspection" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="630" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Risk_SK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="726" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Risk" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="834" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:NEWChicago|||dim_Risk</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Upsert</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:NEWChicago
+Query=dim_Risk</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Unique" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NewPART3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="72247fae-4326-4f24-8039-69851d0db97b" />
+      <Telemetry>
+        <PreviousWorkflowId value="8e17b626-856f-4870-acb2-722f341c641c" />
+        <OriginWorkflowId value="8e17b626-856f-4870-acb2-722f341c641c" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
